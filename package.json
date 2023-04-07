@@ -2,15 +2,13 @@
   "name": "react-shop",
   "version": "1.0.0",
   "description": "react eshop",
-  "repository": {
-    "url": "https://dacier97.github.io/shop_react/"
-  },
+  "homepage": "https://dacier97.github.io/shop_react/",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack server  --open",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "build": "webpack --mode production"
   },
   "keywords": [
