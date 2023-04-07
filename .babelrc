@@ -1,0 +1,7 @@
+{
+  "presets": [
+    "@babel/preset-env", //Permite trabajar con eMAC 5 EMAC6
+    "@babel/preset-react" //Permite trabajar con React en sus nuevas y viejas versiones
+  ],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
